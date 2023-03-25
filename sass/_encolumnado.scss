@@ -1,0 +1,39 @@
+/*descripcion de personajes en columna*/
+
+.columna {
+
+    background-color: red;
+    margin: 30px 30px 50px 30px;
+    width: 800px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.columna2 {
+    background-color: black;
+    width: 700px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-left: 50px;
+
+}
+
+/*personajes*/
+
+.manwha {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    max-width: 100%;
+}

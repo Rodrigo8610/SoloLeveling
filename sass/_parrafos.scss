@@ -1,0 +1,66 @@
+
+.tituloManga {
+
+    color: blueviolet;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    padding: 100px;
+    background-color: black;
+    margin-top: 60px;
+    border: 40px solid blueviolet;
+}
+
+
+
+.segundoParrafo {
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: initial;
+    color: blueviolet;
+    margin-left: 1100px;
+    margin-right: 50p;
+    margin-bottom: 80px;
+    padding: 40px;
+    border: 10% solid blueviolet;
+
+}
+
+.descriptionGame {
+
+    color: blueviolet;
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    margin: 55px 40px;
+}
+
+
+
+.descriptionCharacter {
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: unset;
+    font-size: 20px;
+    color: black;
+    display: block;
+    margin-right: 150px;
+    margin-left: 20px;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+/*capitulos */
+
+.capitulo {
+    display: flex;
+    align-self: center;
+    border: 20px solid red;
+    width: 85%;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 150px;
+}
