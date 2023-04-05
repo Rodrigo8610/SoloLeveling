@@ -125,7 +125,7 @@
         text-align: center;
         overflow: hidden;
         line-height: 20px;
-        margin: 0 auto;
+        margin: 10px;
 
     }
 
@@ -220,7 +220,7 @@
         text-align: center;
         overflow: hidden;
         line-height: 25px;
-        margin: 0 auto;
+        margin:10px;
     }
 
     .columna {
@@ -298,6 +298,16 @@
 }
 
 @media screen and (min-width:1px) and (max-width:400px) {
+
+    .descriptionCharacter {
+        font-size: 15px;
+        text-align: center;
+        overflow: hidden;
+        line-height: 25px;
+        margin:10px;
+    }
+
+
     .border {
         margin: 0 auto;
         overflow: hidden;
