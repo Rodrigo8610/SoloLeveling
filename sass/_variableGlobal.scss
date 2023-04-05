@@ -1,1 +1,8 @@
+/*background color footer variable*/
+@mixin size-div-color ($width ,$height ){
+    width: $width;
+    height: $height;
+}
+
 $color: blueviolet
+
