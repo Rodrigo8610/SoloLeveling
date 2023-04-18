@@ -10,6 +10,31 @@
 
 
 
+@media screen and (min-width:889px) and (max-width:1920px) {
+    .galeria {
+
+        display: grid;
+        grid-template-columns: repeat(6, 300px, 1fr);
+        grid-template-rows: repeat(3, 300px);
+        gap: 15px;
+        padding: 1%;
+    }
+
+    .banner {
+        max-width: 100%;
+        height: 50%;
+        margin: 0 auto;
+        margin-top: 100px;
+
+    }
+    h3 {
+        margin: 0 auto ;
+        font-size: 40px;
+        margin-top: 40px; 
+    }
+}
+
+
 @media screen and (max-width : 1400px) {
     body {
         background-color: red;
@@ -28,16 +53,20 @@
 
     h2 {
         color: black;
-        font-size: 25px;
+        font-size: 50px;
     }
 
     footer {
         background-color: black;
         margin-top: 25px;
+
     }
 
     h3 {
-        color: red;
+        color:red;
+        margin: 0 auto;
+        font-size: 40px;
+        margin-top: 40px;
     }
 
     .columna2 {
@@ -113,9 +142,111 @@
         margin-top: 15px;
     }
 
+    h3 {
+        margin: 0 auto;
+        font-size: 35px; 
+        margin-top: 40px;
+    }
+    
+    .descriptionGame {
+        font-size: 25px;
+        text-align: center;
+        overflow: hidden;
+        line-height: 40px;
+        margin: 0 auto;
+        color: black;
+
+    }
 
 }
 
+
+
+
+
+@media screen and (min-width:481px) and (max-width:888px) {
+
+    .descriptionCharacter {
+        font-size: 15px;
+        text-align: center;
+        overflow: hidden;
+        line-height: 25px;
+        margin:10px;
+    }
+
+    .columna {
+        max-width: 100%;
+        height: 50%;
+        margin: 0 auto;
+        margin-top: 15px
+    }
+
+    .manwha {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    html {
+        width: 100%;
+    }
+
+    .body {
+        max-width: 100%;
+    }
+
+    .p {
+        text-align: center;
+    }
+
+    .border {
+        margin: 0 auto ;
+
+    }
+
+    .border2 {
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .war img .war .ant .monarchs .boss .army {
+        margin-top: 15px;
+
+    }
+
+    h3 {
+        margin: 0 auto;
+        font-size: 25px; 
+        margin-top: 40px;
+    }
+
+    .descriptionGame {
+        font-size: 25px;
+        text-align: center;
+        overflow: hidden;
+        line-height: 40px;
+        margin: 0 auto;
+        color: black;
+    }
+
+    .banner {
+        max-width: 100%;
+        height: 50%;
+        margin: 0 auto;
+        margin-top: 100px;
+
+    }
+
+    .anima {
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .anima2 {
+        margin: 0 auto;
+        overflow: hidden;
+
+    }
+}
 
 
 @media screen and (max-width: 480px) {
@@ -170,15 +301,16 @@
 
     h3 {
         margin: 0 auto;
-        font-size: 15px;
+        font-size: 20px; 
+        margin-top: 40px;
 
     }
 
     .descriptionGame {
-        font-size: 15px;
+        font-size: 25px;
         text-align: center;
         overflow: hidden;
-        line-height: 25px;
+        line-height: 35px;
         margin: 0 auto;
         color: black;
     }
@@ -213,90 +345,6 @@
 }
 
 
-@media screen and (min-width:481px) and (max-width:888px) {
-
-    .descriptionCharacter {
-        font-size: 15px;
-        text-align: center;
-        overflow: hidden;
-        line-height: 25px;
-        margin:10px;
-    }
-
-    .columna {
-        max-width: 100%;
-        height: 50%;
-        margin: 0 auto;
-        margin-top: 15px
-    }
-
-    .manwha {
-        max-width: 100%;
-        padding: 0;
-    }
-
-    html {
-        width: 100%;
-    }
-
-    .body {
-        max-width: 100%;
-    }
-
-    .p {
-        text-align: center;
-    }
-
-    .border {
-        margin: 0 auto ;
-
-    }
-
-    .border2 {
-        margin: 0 auto;
-        overflow: hidden;
-    }
-
-    .war img .war .ant .monarchs .boss .army {
-        margin-top: 15px;
-
-    }
-
-    h3 {
-        margin: 0 auto;
-        font-size: 25px;
-
-    }
-
-    .descriptionGame {
-        font-size: 25px;
-        text-align: center;
-        overflow: hidden;
-        line-height: 25px;
-        margin: 0 auto;
-        color: black;
-    }
-
-    .banner {
-        max-width: 100%;
-        height: 50%;
-        margin: 0 auto;
-        margin-top: 100px;
-
-    }
-
-    .anima {
-        margin: 0 auto;
-        overflow: hidden;
-    }
-
-    .anima2 {
-        margin: 0 auto;
-        overflow: hidden;
-
-    }
-}
-
 @media screen and (min-width:1px) and (max-width:400px) {
 
     .descriptionCharacter {
@@ -319,8 +367,9 @@
     }
 
     h3 {
-        margin: 0 auto;
+        margin: 0 auto ;
         font-size: 15px;
+        margin-top: 40px;
 
     }
 
@@ -328,7 +377,7 @@
         font-size: 15px;
         text-align: center;
         overflow: hidden;
-        line-height: 15px;
+        line-height: 25px;
         margin: 0 auto;
         color: black;
     }
@@ -364,21 +413,3 @@
 }
 
 
-@media screen and (min-width:889px) and (max-width:1920px) {
-    .galeria {
-
-        display: grid;
-        grid-template-columns: repeat(6, 300px, 1fr);
-        grid-template-rows: repeat(3, 300px);
-        gap: 15px;
-        padding: 1%;
-    }
-
-    .banner {
-        max-width: 100%;
-        height: 50%;
-        margin: 0 auto;
-        margin-top: 100px;
-
-    }
-}
