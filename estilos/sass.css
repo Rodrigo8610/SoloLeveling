@@ -26,6 +26,36 @@
   text-align: left;
 }
 
+.cosp {
+  font-family: "Chivo Mono", monospace;
+  font-size: 40px;
+  color: red;
+  display: flex;
+  flex-direction: wrap;
+  text-align: center;
+}
+
+.cosplays {
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  padding: 50px;
+  max-width: 100%;
+}
+
+.cosplayers {
+  flex: 30%;
+  padding: 10px;
+}
+
+.cosplayers img {
+  width: 100%;
+  margin-top: 15px;
+  height: auto;
+}
+
 /*.titulos.*/
 h1 {
   color: blueviolet;
