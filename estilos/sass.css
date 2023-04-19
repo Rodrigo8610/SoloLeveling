@@ -291,6 +291,7 @@ footer {
   .descriptionGame {
     color: black;
     letter-spacing: 5px;
+    padding: 10px;
   }
   h1 {
     color: black;
@@ -377,6 +378,7 @@ footer {
     line-height: 40px;
     margin: 0 auto;
     color: black;
+    padding: 10px;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 888px) {
@@ -429,6 +431,7 @@ footer {
     line-height: 40px;
     margin: 0 auto;
     color: black;
+    padding: 10px;
   }
   .banner {
     max-width: 100%;
@@ -524,6 +527,7 @@ footer {
     line-height: 35px;
     margin: 0 auto;
     color: black;
+    padding: 10px;
   }
   .h1 {
     font-size: 15px;
@@ -575,6 +579,7 @@ footer {
     line-height: 25px;
     margin: 0 auto;
     color: black;
+    padding: 10px;
   }
   h1 {
     margin: 0 auto;
