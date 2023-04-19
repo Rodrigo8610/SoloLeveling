@@ -104,10 +104,6 @@ a:visited {
   color: black;
 }
 
-a:hover {
-  color: orange;
-}
-
 /*barra de navegacion */
 .nav ul {
   justify-content: space-between;
@@ -385,7 +381,7 @@ footer {
 }
 @media screen and (min-width: 481px) and (max-width: 888px) {
   .descriptionCharacter {
-    font-size: 15px;
+    font-size: 18px;
     text-align: center;
     overflow: hidden;
     line-height: 25px;
@@ -477,7 +473,7 @@ footer {
 }
 @media screen and (max-width: 480px) {
   .descriptionCharacter {
-    font-size: 10px;
+    font-size: 18px;
     text-align: center;
     overflow: hidden;
     line-height: 20px;
@@ -552,7 +548,7 @@ footer {
 }
 @media screen and (min-width: 1px) and (max-width: 400px) {
   .descriptionCharacter {
-    font-size: 15px;
+    font-size: 18px;
     text-align: center;
     overflow: hidden;
     line-height: 25px;
