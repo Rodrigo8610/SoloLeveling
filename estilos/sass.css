@@ -39,7 +39,6 @@
   background-color: black;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
   align-items: center;
   padding: 50px;
   max-width: 100%;
@@ -447,6 +446,32 @@ footer {
   .anima2 {
     margin: 0 auto;
     overflow: hidden;
+  }
+}
+@media screen and (min-width: 402px) and (max-width: 825px) {
+  .cosp {
+    font-family: "Chivo Mono", monospace;
+    font-size: 25px;
+    color: red;
+    display: flex;
+    flex-direction: wrap;
+    text-align: center;
+  }
+  .cosplays {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 50px;
+    max-width: 100%;
+  }
+  .cosplayers {
+    flex: 30%;
+    padding: 10px;
+  }
+  .cosplayers img {
+    width: 100%;
+    margin-top: 15px;
   }
 }
 @media screen and (max-width: 480px) {
