@@ -42,25 +42,50 @@
 
 
 @media screen and (max-width : 1400px) {
+
+    h1 {
+        padding: 40px;
+        margin: 0 auto;
+        font-size: 50px;
+        color: black;
+        border-color: black;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        line-height: 50px;
+    }
+
+    h2 {
+        color: black;
+        font-size: 40px;
+        margin: 50px 20px 50px 20px;
+        text-align: center;
+        line-height: 50px;
+        letter-spacing: 5px;
+    }
+
+
+    h3 {
+        color: red;
+        margin: 0 auto;
+        font-size: 35px;
+        margin-top: 40px;
+    }
     body {
         background-color: red;
     }
 
     .descriptionGame {
+    
+        font-size: 25px;
+        text-align: center;
+        overflow: hidden;
+        line-height: 40px;
+        margin: 0 auto;
         color: black;
-        letter-spacing: 5px;
         padding: 10px;
-
-    }
-
-    h1 {
-        color: black;
-        border-color: black;
-    }
-
-    h2 {
-        color: black;
-        font-size: 50px;
+        letter-spacing: 5px;
     }
 
     footer {
@@ -69,12 +94,6 @@
 
     }
 
-    h3 {
-        color: red;
-        margin: 0 auto;
-        font-size: 40px;
-        margin-top: 40px;
-    }
 
     .columna2 {
         max-width: 100%;
@@ -103,6 +122,38 @@
 
 
 @media screen and (max-width : 1000px) {
+
+    h1 {
+        padding: 20px;
+        margin: 0 auto;
+        font-size: 50px;
+        color: black;
+        border-color: black;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        line-height: 50px;
+        
+    }
+
+    h2 {
+        color: black;
+        font-size: 40px;
+        margin: 50px 20px 50px 20px;
+        text-align: center;
+        line-height: 50px;
+        letter-spacing: 5px;
+    }
+
+
+
+    h3 {
+        margin: 0 auto;
+        font-size: 35px;
+        margin-top: 40px;
+    }
+
     body {
         background-color: red;
     }
@@ -151,11 +202,6 @@
         margin-top: 15px;
     }
 
-    h3 {
-        margin: 0 auto;
-        font-size: 35px;
-        margin-top: 40px;
-    }
 
     .descriptionGame {
         font-size: 25px;
@@ -176,6 +222,36 @@
 
 
 @media screen and (min-width:481px) and (max-width:888px) {
+
+    h1 {
+        padding: 20px;
+        margin: 0 auto;
+        font-size: 50px;
+        color: black;
+        border-color: black;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        line-height: 50px;
+        
+    }
+
+    h2 {
+        color: black;
+        font-size: 40px;
+        margin: 50px 20px 50px 20px;
+        text-align: center;
+        line-height: 50px;
+        letter-spacing: 5px;
+    }
+
+    h3 {
+        margin: 0 auto;
+        font-size: 25px;
+        margin-top: 40px;
+    }
+
 
     .descriptionCharacter {
         font-size: 18px;
@@ -225,11 +301,6 @@
         
     }
 
-    h3 {
-        margin: 0 auto;
-        font-size: 25px;
-        margin-top: 40px;
-    }
 
     .descriptionGame {
         font-size: 25px;
@@ -264,6 +335,30 @@
 }
 
 @media screen and (min-width:402px) and (max-width:825px) {
+
+    h1 {
+        padding: 20px;
+        margin: 0 auto;
+        font-size: 40px;
+        color: black;
+        border-color: black;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        line-height: 50px;
+    }
+    
+
+    h2 {
+        color: black;
+        font-size: 35px;
+        margin: 30px 20px 30px 20px;
+        text-align: center;
+        line-height: 40px;
+        letter-spacing: 5px;
+    }
+
 
     .cosp {
 
@@ -301,11 +396,53 @@
     
     }
 
-    
+    .descriptionGame {
+        font-size: 25px;
+        text-align: center;
+        overflow: hidden;
+        line-height: 30px;
+        margin: 0 auto;
+        color: black;
+        padding: 10px;
+        letter-spacing: 5px;
+        word-spacing: 0px;
+    }
+
+
 }
 
 
 @media screen and (max-width: 480px) {
+
+
+    h1 {
+        padding: 10px;
+        margin: 0 auto;
+        font-size: 30px;
+        color: black;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        line-height: 50px;
+    }
+
+    h2 {
+        color: black;
+        font-size: 25px;
+        text-align: center;
+        line-height: 30px;
+        margin: 30px 30px 30px 30px;
+        border-color: black;
+    }
+    
+
+    h3 {
+        margin: 0 auto;
+        font-size: 20px;
+        margin-top: 30px;
+
+    }
 
     .descriptionCharacter {
         font-size: 18px;
@@ -316,6 +453,7 @@
         font-family: 'Chivo Mono', monospace;
 
     }
+    
 
     .columna {
         max-width: 100%;
@@ -356,31 +494,19 @@
         text-align: center;
     }
 
-    h3 {
-        margin: 0 auto;
-        font-size: 20px;
-        margin-top: 40px;
-
-    }
 
     .descriptionGame {
-        font-size: 25px;
+        font-size: 20px;
         text-align: center;
         overflow: hidden;
-        line-height: 35px;
+        line-height:20px;
         margin: 0 auto;
         color: black;
         padding: 10px;
         letter-spacing: 5px;
     }
 
-    .h1 {
 
-        font-size: 15px;
-        text-align: center;
-        overflow: hidden;
-        margin: 0 auto;
-    }
 
     .banner {
         max-width: 100%;
@@ -407,6 +533,34 @@
 @media screen and (min-width:1px) and (max-width:400px) {
 
 
+    h1 {
+        padding: 10px;
+        margin: 0 auto;
+        font-size: 30px;
+        color: black;
+        border-color: black;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        line-height: 50px;
+    }
+
+    h2 {
+        color: black;
+        font-size: 25px;
+        line-height: 25px;
+        margin: 30px 30px 30px 30px;
+        
+    }
+
+
+    h3 {
+        margin: 0 auto;
+        font-size: 16px;
+        margin-top: 20px;
+
+    }
 
     .descriptionCharacter {
         font-size: 18px;
@@ -428,28 +582,19 @@
         overflow: hidden;
     }
 
-    h3 {
-        margin: 0 auto;
-        font-size: 15px;
-        margin-top: 40px;
-
-    }
 
     .descriptionGame {
-        font-size: 15px;
+        font-size: 20px;
         text-align: center;
         overflow: hidden;
-        line-height: 25px;
+        line-height: 20px;
         margin: 0 auto;
         color: black;
         padding: 10px;
-        letter-spacing: 5px;
+        letter-spacing: 0px;
+        word-spacing: 5px;
     }
 
-    h1 {
-        margin: 0 auto;
-        font-size: 25px;
-    }
 
     .anima {
         margin: 0 auto;
@@ -475,5 +620,23 @@
         margin-top: 100px;
 
     }
+
+}
+@media screen and (min-width:1px) and (max-width:358px) {
+
+
+
+    .descriptionGame {
+        font-size: 15px;
+        text-align: center;
+        overflow: hidden;
+        line-height: 15px;
+        margin: 0 auto;
+        color: black;
+        padding: 10px;
+        letter-spacing: 0px;
+        word-spacing: 5px;
+    }
+
 
 }
