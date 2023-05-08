@@ -59,5 +59,22 @@ footer {
     margin-top: 50px;
     text-align: center;
 
+/*body con degradado en capitulos*/
+}
+.backimg{
+    background: linear-gradient(to right, black, rgb(114, 11, 31) );
+
+
 }
 
+/*descripcion de cada capitulos */
+
+.cap1{
+
+color: crimson;
+    font-size: 35px;
+    font-family: 'Sedgwick Ave Display', cursive;
+    margin: 100px 30px 100px 30px;
+    text-align: center;
+    line-height: 100px;
+}

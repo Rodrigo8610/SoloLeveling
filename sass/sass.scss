@@ -455,7 +455,19 @@
         margin: 30px 20px;
         font-family: 'Oswald', sans-serif
     }
+
+    .cap1{
+
+        color: crimson;
+        font-size: 25px;
+        font-family: 'Sedgwick Ave Display', cursive;
+        margin: 100px 30px 100px 30px;
+        text-align: center;
+        line-height: 50px;
+    }
 }
+
+
 
 @media screen and (max-width: 480px) {
 
@@ -583,6 +595,15 @@
         overflow: hidden;
 
     }
+    .cap1{
+
+        color: crimson;
+            font-size: 20px;
+            font-family: 'Sedgwick Ave Display', cursive;
+            margin: 100px 30px 100px 30px;
+            text-align: center;
+            line-height: 50px;
+        }
 
 }
 
@@ -619,6 +640,16 @@
         letter-spacing: 1px;
 
     }
+
+    .cap1{
+
+        color: crimson;
+            font-size: 20px;
+            font-family: 'Sedgwick Ave Display', cursive;
+            margin: 100px 30px 100px 30px;
+            text-align: center;
+            line-height: 50px;
+        }
 
     .descriptionCharacter {
         font-size: 18px;
