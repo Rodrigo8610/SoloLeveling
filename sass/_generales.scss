@@ -18,16 +18,10 @@ a {
     font-family: 'Sedgwick Ave Display', cursive ;
 }
 
-a:link {
-    color: rgb(255, 3, 234);
-
-}
 
 a:visited {
     color: black;
 }
-
-
 
 
 
@@ -61,5 +55,9 @@ footer {
     background-color: $color;
     max-width: 100%;
     margin-top: 50px;
+    text-align: center;
 
+}
+.foot { 
+background-color: red;
 }

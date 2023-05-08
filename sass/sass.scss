@@ -12,8 +12,6 @@
 
 
 
-
-
 @media screen and (min-width:889px) and (max-width:1920px) {
     .galeria {
 
@@ -34,9 +32,13 @@
 
     h3 {
         margin: 0 auto;
-        font-size: 30px;
-        margin-top: 40px;
+        font-size: 50px;
+        margin: 40px,50px ;
+        font-family: 'Sedgwick Ave Display', cursive;
+        letter-spacing: 5px;
+        line-height: 100px;
     }
+        
 
 }
 
@@ -47,8 +49,6 @@
         padding: 40px;
         margin: 0 auto;
         font-size: 50px;
-        color: black;
-        border-color: black;
         margin-top: 20px;
         margin-bottom: 20px;
         margin-left: 10px;
@@ -57,7 +57,7 @@
     }
 
     h2 {
-        color: black;
+    
         font-size: 40px;
         margin: 50px 20px 50px 20px;
         text-align: center;
@@ -67,15 +67,15 @@
 
 
     h3 {
-        color: red;
+    
         margin: 0 auto;
-        font-size: 35px;
+        font-size: 45px;
         margin-top: 40px;
+        font-family: 'Sedgwick Ave Display', cursive;
+        letter-spacing: 5px;
+        line-height: 50px;
     }
-
-    body {
-        background-color: red;
-    }
+    
 
     .descriptionGame {
 
@@ -84,15 +84,27 @@
         overflow: hidden;
         line-height: 40px;
         margin: 0 auto;
-        color: black;
+        color:blueviolet;
         padding: 10px;
         letter-spacing: 5px;
     }
 
-    footer {
-        background-color: black;
-        margin-top: 25px;
 
+    .galeryDescription{
+
+        color: blueviolet;
+        text-align: center;
+        font-size: 25px;
+        line-height: 5px;
+        letter-spacing: 5px;
+        word-spacing: 0px;
+        margin: 30px 20px;
+        font-family: 'Oswald', sans-serif
+    
+
+    }
+    footer {
+        margin-top: 20px;
     }
 
 
@@ -101,7 +113,7 @@
         height: 50%;
         margin: 0 auto;
         margin-top: 15px;
-        background-color: red;
+    
     }
 
     .banner {
@@ -118,7 +130,6 @@
 
     }
 
-
 }
 
 
@@ -128,8 +139,6 @@
         padding: 20px;
         margin: 0 auto;
         font-size: 50px;
-        color: black;
-        border-color: black;
         margin-top: 20px;
         margin-bottom: 20px;
         margin-left: 10px;
@@ -139,7 +148,6 @@
     }
 
     h2 {
-        color: black;
         font-size: 40px;
         margin: 50px 20px 50px 20px;
         text-align: center;
@@ -153,11 +161,12 @@
         margin: 0 auto;
         font-size: 35px;
         margin-top: 40px;
+        font-family: 'Sedgwick Ave Display', cursive;
+        letter-spacing: 5px;
+        line-height: 30px;
     }
 
-    body {
-        background-color: red;
-    }
+
 
     nav ul {
         background-color: red;
@@ -174,7 +183,6 @@
         height: 50%;
         margin: 0 auto;
         margin-top: 15px;
-        background-color: red;
     }
 
     .anima {
@@ -210,14 +218,27 @@
         overflow: hidden;
         line-height: 40px;
         margin: 0 auto;
-        color: black;
+        color: blueviolet;
         padding: 10px;
         letter-spacing: 5px;
+    }
+    
+    .galeryDescription{
+
+        color: blueviolet;
+        text-align: center;
+        font-size: 20px;
+        line-height: 5px;
+        letter-spacing: 5px;
+        word-spacing: 0px;
+        margin: 30px 20px;
+        font-family: 'Oswald', sans-serif
+    
+
     }
 
 
 }
-
 
 
 
@@ -228,8 +249,6 @@
         padding: 20px;
         margin: 0 auto;
         font-size: 50px;
-        color: black;
-        border-color: black;
         margin-top: 20px;
         margin-bottom: 20px;
         margin-left: 10px;
@@ -239,7 +258,6 @@
     }
 
     h2 {
-        color: black;
         font-size: 40px;
         margin: 50px 20px 50px 20px;
         text-align: center;
@@ -249,8 +267,10 @@
 
     h3 {
         margin: 0 auto;
-        font-size: 25px;
+        font-size: 35px;
         margin-top: 40px;
+        font-family: 'Sedgwick Ave Display', cursive;
+        line-height: 30px;
     }
 
 
@@ -299,8 +319,8 @@
 
     .war img .war .ant .monarchs .boss .army {
         margin-top: 15px;
-
     }
+
 
 
     .descriptionGame {
@@ -309,9 +329,22 @@
         overflow: hidden;
         line-height: 40px;
         margin: 0 auto;
-        color: black;
+        color:blueviolet;
         padding: 10px;
         letter-spacing: 5px;
+    }
+
+    .galeryDescription{
+
+        color: blueviolet;
+        text-align: center;
+        font-size: 20px;
+        line-height: 5px;
+        letter-spacing: 5px;
+        word-spacing: 0px;
+        margin: 30px 20px;
+        font-family: 'Oswald', sans-serif
+    
     }
 
     .banner {
@@ -341,8 +374,6 @@
         padding: 20px;
         margin: 0 auto;
         font-size: 40px;
-        color: black;
-        border-color: black;
         margin-top: 20px;
         margin-bottom: 20px;
         margin-left: 10px;
@@ -352,12 +383,20 @@
 
 
     h2 {
-        color: black;
         font-size: 35px;
         margin: 30px 20px 30px 20px;
         text-align: center;
         line-height: 40px;
         letter-spacing: 5px;
+    }
+
+    h3 {
+        margin: 0 auto;
+        font-size: 30px;
+        margin-top: 30px;
+        font-family: 'Sedgwick Ave Display', cursive;
+        letter-spacing: 5px;
+        line-height: 40px;
     }
 
 
@@ -398,20 +437,31 @@
     }
 
     .descriptionGame {
-        font-size: 25px;
+        font-size: 20px;
         text-align: center;
         overflow: hidden;
         line-height: 30px;
         margin: 0 auto;
-        color: black;
+        color: blueviolet;
         padding: 10px;
         letter-spacing: 5px;
         word-spacing: 0px;
     }
 
+    .galeryDescription{
 
+        color: blueviolet;
+        text-align: center;
+        font-size: 20px;
+        line-height: 5px;
+        letter-spacing: 0px;
+        word-spacing: 0px;
+        margin: 30px 20px;
+        font-family: 'Oswald', sans-serif
+    
+
+    }
 }
-
 
 @media screen and (max-width: 480px) {
 
@@ -420,7 +470,6 @@
         padding: 10px;
         margin: 0 auto;
         font-size: 30px;
-        color: black;
         margin-top: 30px;
         margin-bottom: 30px;
         margin-left: 10px;
@@ -429,21 +478,23 @@
     }
 
     h2 {
-        color: black;
         font-size: 25px;
         text-align: center;
         line-height: 30px;
         margin: 30px 30px 30px 30px;
-        border-color: black;
     }
 
 
     h3 {
-        margin: 0 auto;
-        font-size: 20px;
-        margin-top: 30px;
-
+            margin: 0 auto;
+            font-size: 25px;
+            margin-top: 40px;
+            font-family: 'Sedgwick Ave Display', cursive;
+            letter-spacing: 5px;
+            line-height: 30px;
     }
+    
+
 
     .descriptionCharacter {
         font-size: 18px;
@@ -468,7 +519,7 @@
         height: 50%;
         margin: 0 auto;
         margin-top: 15px;
-        background-color: red;
+    
     }
 
     .border2 {
@@ -502,11 +553,22 @@
         overflow: hidden;
         line-height: 20px;
         margin: 0 auto;
-        color: black;
+        color: blueviolet;
         padding: 10px;
         letter-spacing: 5px;
     }
+.galeryDescription{
 
+    color: blueviolet;
+    text-align: center;
+    font-size: 15px;
+    line-height: 0px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    margin: 30px 20px;
+    font-family: 'Oswald', sans-serif
+
+}
 
 
     .banner {
@@ -538,8 +600,6 @@
         padding: 10px;
         margin: 0 auto;
         font-size: 30px;
-        color: black;
-        border-color: black;
         margin-top: 30px;
         margin-bottom: 30px;
         margin-left: 10px;
@@ -548,7 +608,7 @@
     }
 
     h2 {
-        color: black;
+
         font-size: 25px;
         line-height: 25px;
         margin: 30px 30px 30px 30px;
@@ -558,8 +618,10 @@
 
     h3 {
         margin: 0 auto;
-        font-size: 16px;
+        font-size: 20px;
         margin-top: 20px;
+        font-family: 'Sedgwick Ave Display', cursive;
+        line-height: 30px;
 
     }
 
@@ -585,15 +647,26 @@
 
 
     .descriptionGame {
-        font-size: 20px;
+        font-size: 18px;
         text-align: center;
         overflow: hidden;
         line-height: 20px;
         margin: 0 auto;
-        color: black;
+        color:blueviolet;
         padding: 10px;
         letter-spacing: 0px;
         word-spacing: 5px;
+    }
+
+    
+    .galeryDescription{
+
+        color: blueviolet;
+        text-align: center;
+        font-size: 15px;
+        margin: 30px 20px;
+        font-family: 'Oswald', sans-serif
+    
     }
 
 
@@ -629,15 +702,48 @@
 
 
     .descriptionGame {
-        font-size: 15px;
+        font-size: 10px;
         text-align: center;
         overflow: hidden;
         line-height: 15px;
         margin: 0 auto;
-        color: black;
+        color: blueviolet;
         padding: 10px;
         letter-spacing: 0px;
         word-spacing: 5px;
+    }
+    .galeryDescription{
+
+        color: blueviolet;
+        text-align: center;
+        font-size: 15px;
+        line-height: 0px;
+        letter-spacing: 0px;
+        word-spacing: 0px;
+        margin: 30px 20px;
+        font-family: 'Oswald', sans-serif
+    
+    }
+
+    h3 {
+        margin: 0 auto;
+        font-size: 18px;
+        margin-top: 20px;
+        font-family: 'Sedgwick Ave Display', cursive;
+        line-height: 20px;
+    }
+}
+
+
+@media screen and (min-width:1px) and (max-width:358px) {
+
+
+    h3 {
+        margin: 0 auto;
+        font-size: 15px;
+        margin-top: 20px;
+        font-family: 'Sedgwick Ave Display', cursive;
+        line-height: 20px;
     }
 
 
