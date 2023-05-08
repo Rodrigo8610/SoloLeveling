@@ -1,4 +1,4 @@
-/*descripcion de personajes en columna*/
+/*seccion de personajes*/
 
 .manwha {
     background-color: black;
@@ -8,6 +8,8 @@
     align-items: center;
     padding: 10px;
     max-width: 100%;
+
+/*borde de la portada del manwha en index */
 
     .border2 {
         width: 100%;
@@ -20,6 +22,7 @@
 
 
 }
+ /*div class de la portada del manwha en index */
 
 .columna2 {
     background-color: black;
@@ -34,7 +37,7 @@
 
 
 }
-
+/*contenedor de imagenes en cosplay*/
 .portada2 {
 
     margin: 15px;

@@ -1,5 +1,5 @@
 /*background color footer variable*/
-/*parrafos de index , descripcion del manwha*/
+/*parrafo de la pagina mobile */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap");
@@ -16,6 +16,7 @@
   font-family: "Oswald", sans-serif;
 }
 
+/*descripcion de la portada manwha en index*/
 .galeryDescription {
   color: blueviolet;
   text-align: center;
@@ -68,7 +69,7 @@
   margin-top: 15px;
 }
 
-/*.titulos.*/
+/*.titulos principal*/
 h1 {
   color: blueviolet;
   font-size: 60px;
@@ -83,6 +84,7 @@ h1 {
   line-height: 100px;
 }
 
+/*titulos secundarios*/
 h2 {
   color: red;
   font-size: 45px;
@@ -92,6 +94,7 @@ h2 {
   line-height: 100px;
 }
 
+/*tercer titulo en footer*/
 h3 {
   font-size: 35px;
   margin: 0 auto;
@@ -140,10 +143,6 @@ footer {
   text-align: center;
 }
 
-.foot {
-  background-color: red;
-}
-
 /* imagenes de galeria en index grid*/
 .galeria .war {
   width: 100%;
@@ -184,6 +183,7 @@ footer {
   align-items: center;
   padding: 10px;
   max-width: 100%;
+  /*bordes*/
 }
 .manwha .border {
   border-radius: 25%;
@@ -193,6 +193,7 @@ footer {
   width: 500px;
 }
 
+/*contendeor de imagenes de persinajes*/
 .columna {
   background-color: red;
   margin: 30px 30px 50px 30px;
@@ -203,7 +204,7 @@ footer {
   align-items: center;
 }
 
-/*descripcion de personajes en columna*/
+/*seccion de personajes*/
 .manwha {
   background-color: black;
   display: flex;
@@ -212,6 +213,7 @@ footer {
   align-items: center;
   padding: 10px;
   max-width: 100%;
+  /*borde de la portada del manwha en index */
 }
 .manwha .border2 {
   width: 100%;
@@ -221,6 +223,7 @@ footer {
   margin: 100px 50px;
 }
 
+/*div class de la portada del manwha en index */
 .columna2 {
   background-color: black;
   width: 700px;
@@ -233,12 +236,14 @@ footer {
   margin-left: 50px;
 }
 
+/*contenedor de imagenes en cosplay*/
 .portada2 {
   margin: 15px;
   padding: 25px;
   background-color: black;
 }
 
+/*contenedor de la animacion*/
 .banner {
   width: 100%;
   height: 500px;
@@ -272,11 +277,13 @@ footer {
     transform: translate(0px);
   }
 }
+/*animacios derecha*/
 .anima {
   animation: from-right 4s ease;
   margin-left: 100px;
 }
 
+/*animacion izq*/
 .anima2 {
   animation: from-left 4s ease;
   margin-left: 100px;
@@ -638,10 +645,10 @@ footer {
   }
   h3 {
     margin: 0 auto;
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 15px;
     font-family: "Sedgwick Ave Display", cursive;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     line-height: 40px;
   }
   .descriptionCharacter {
@@ -736,11 +743,11 @@ footer {
   }
   h3 {
     margin: 0 auto;
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 15px;
     font-family: "Sedgwick Ave Display", cursive;
     line-height: 30px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
   }
   .descriptionCharacter {
     font-size: 18px;
@@ -819,20 +826,20 @@ footer {
   }
   h3 {
     margin: 0 auto;
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 20px;
     font-family: "Sedgwick Ave Display", cursive;
     line-height: 30px;
     letter-spacing: 1px;
   }
 }
-@media screen and (min-width: 1px) and (max-width: 358px) {
+@media screen and (min-width: 1px) and (max-width: 300px) {
   h3 {
     margin: 0 auto;
-    font-size: 15px;
+    font-size: 14px;
     margin-top: 15px;
     font-family: "Sedgwick Ave Display", cursive;
-    line-height: 30px;
+    line-height: 20px;
     letter-spacing: 1px;
   }
 }/*# sourceMappingURL=sass.css.map */
