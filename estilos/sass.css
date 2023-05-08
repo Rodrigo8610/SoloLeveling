@@ -117,6 +117,10 @@ a:visited {
   color: black;
 }
 
+.horizontal-gradient {
+  background: linear-gradient(to right, black, rgb(114, 11, 31));
+}
+
 /*barra de navegacion */
 .nav ul {
   justify-content: space-between;
